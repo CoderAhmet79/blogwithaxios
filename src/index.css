@@ -5,8 +5,101 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #c7b3b34b;
+}
+#root {
+  margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 50%;
+background-color: whitesmoke;
+border: solid 1px black;
+}
+.Header {
+width: 100%;
+background-color: rgba(4, 83, 230, 0.966);
+color: #fff;
+display: flex;
+justify-items: center;
+align-items: center;
+flex-direction: column;
 }
 
+.Nav {
+  margin: auto;
+  width: 100%;
+  background-color: rgba(32, 46, 53, 0.568);
+  height: 6vh;
+  color: #fff;
+  display: flex;
+  flex-grow: 1;
+  justify-content:space-between;
+  flex-direction: row;
+  align-items:stretch;
+
+}
+
+.Nav ul {
+display: flex;
+list-style: none; 
+flex-direction: row;
+
+margin-right: 10px;
+align-items: center;
+flex-wrap: nowrap;
+justify-content: space-between;
+margin-bottom: 8px;
+font-weight: 600;
+}
+
+.Nav li{
+  min-width: 50px;
+  text-align: center;
+  align-items: end;
+}
+.Nav li:hover, .Nav li:focus {
+  cursor: pointer;
+  color: #fff34f;
+  background-color: indigo;
+  border-radius: 5px;
+}
+
+.Nav input[type="text"] {
+margin-left: 5px;
+margin-top: 3px;
+height: 80%;
+width: 50%;
+padding: 0 0 0px 10px;
+font-size: .6rem;
+border: none;
+border-radius: 6px;
+}
+
+.Nav input[type="text"]:focus  {
+outline: none;
+border: 1px solid rgb(17, 0, 255);
+}
+
+.Home {
+width: 100%;
+min-height: 60vh;
+background-color: #fff;
+
+}
+
+.Footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(22, 20, 20);
+  color: #fff;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  font-size: .8rem;
+
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
