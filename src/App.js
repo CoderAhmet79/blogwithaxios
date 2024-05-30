@@ -4,7 +4,6 @@ import Nav from './Nav';
 import Home from './Home'
 import NewPost from './NewPost';
 import Post from './Post';
-import DeletePost from './Reset';
 import EditPost from './EditPost';
 import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
