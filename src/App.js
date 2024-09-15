@@ -69,10 +69,6 @@ if(dataFetched.current === false)
     setPosts(postsList);
   
   }
-  
-  const handleReset = () => {
-    dataFetched.current = true
-  }
 
 
   return (
