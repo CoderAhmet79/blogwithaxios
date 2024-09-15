@@ -1,5 +1,4 @@
 import { useRef, useEffect } from "react";
-import { useNavigate } from "react-router-dom"
 
 
 const NewPost = ({ handleSubmit, setPostTitle, setPostBody }) => {

@@ -10,7 +10,6 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { format } from 'date-fns'
 import axios from 'axios';
-import Loading from './Loading';
 import Reset from './Reset';
 
 
