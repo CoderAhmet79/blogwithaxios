@@ -20,8 +20,6 @@ function App() {
   const [posts, setPosts] = useState([])
   const [postTitle, setPostTitle] = useState('')
   const [postBody, setPostBody] = useState('')
-  const [editTitle, setEditTitle] = useState('')
-  const [editBody, setEditBody] = useState('')
   const dataFetched= useRef(false)
 
  

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 
 const NewPost = ({ handleSubmit, setPostTitle, setPostBody }) => {
     const ref=useRef()
-    const navMe=useNavigate()
+    
     useEffect(() => {
         ref.current.focus();
     }, [])

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useParams } from "react-router-dom";
 import NoPost from './NoPost';
 
-const EditPost = ({ posts, handleEdit, postTitle, postBody, setPostTitle, setPostBody }) => {
+const EditPost = ({ posts, handleEdit, setPostTitle, setPostBody }) => {
     const { id } = useParams()
 
     const post = posts.find(post => (post.id).toString() === id)
